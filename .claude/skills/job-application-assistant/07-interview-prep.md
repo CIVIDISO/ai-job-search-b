@@ -10,30 +10,44 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Populated by /setup 2026-07-06 from the CV. [TODO] items need Brandon's real numbers — add them before interviews. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. LLM Email-Bot Network (applied AI system design)
+**S:** Perfect Blend ran order intake, quality reports, AP, freight, and HR on manual email-to-spreadsheet workflows — slow, error-prone, and unauditable.
+**T:** As sole engineer, automate intake across all of these departments without breaking how customers and staff already communicated (plain email).
+**A:** Designed a network of 8 specialized LLM bots, each with a prompt pipeline that parses natural-language email into structured, validated records routed to per-department workflow queues. Built a feedback loop that records every human correction and feeds it back to improve extraction — accepting that the model would be wrong sometimes and designing for it rather than pretending it wouldn't be.
+**R:** In daily production across four departments. [TODO: emails/orders per week, extraction accuracy before/after feedback loop, hours saved]
+**Use for:** "Tell me about an AI system you built", "How do you handle LLM unreliability?", "Design an automation for messy input"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. PostgreSQL RLS Debugging (root-cause depth)
+**S:** Multi-tenant security in PBOMNI depended on Row Level Security, but queries through database views were failing in ways the documentation didn't explain.
+**T:** Find the real cause — shipping a multi-tenant system with a security model I didn't fully understand wasn't acceptable.
+**A:** Reproduced the failure in isolation and traced it down to how RLS interacts with views at the PL/pgSQL exception-handling level, then restructured the affected access paths accordingly. Also hardened the rest of the surface: revoked anonymous PostgREST access, added audit triggers on all financial records.
+**R:** RLS enforced across 18+ tables with clean tenant isolation; no cross-tenant leakage; audit trail on every financial mutation.
+**Use for:** "Hardest bug you've debugged", "How do you approach security?", "Tell me about going beyond the documentation"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Three-Vendor Integration Conflict (systems debugging under constraints)
+**S:** Embedding DocuSign signing inside the PWA broke with a tangle of OAuth, CORS, and iframe security errors spanning DocuSign, Supabase Edge Functions, and the React frontend — three vendors, each pointing at the others.
+**T:** Make embedded signing work at the loading dock on a Surface tablet, where a redirect-heavy flow would have been unusable.
+**A:** Isolated each failure layer (auth flow vs. cross-origin policy vs. frame-ancestors), worked out which constraint belonged to which vendor, and re-architected the signing flow so each vendor's security requirements were satisfied without compromising the embedded UX.
+**R:** Bill of Lading generation with embedded digital signing runs on the dock daily; drivers sign on the tablet.
+**Use for:** "Tell me about integrating third-party systems", "Debugging across boundaries you don't control"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Manual Ops → Production Platform (ownership / 0→1)
+**S:** A specialty agriculture company ran sales, logistics, compliance, and accounting on email, spreadsheets, and paper.
+**T:** As the company's only technical person, replace that with software — no team, no spec, no existing infrastructure.
+**A:** Built PBOMNI end to end: React/TypeScript PWA, Supabase/PostgreSQL with RLS, Deno Edge Functions, DocuSign integration, 48+ idempotent migrations, GitHub → Vercel CI/CD. Sequenced rollout by department so daily operations never stopped; trained users; iterated from their feedback.
+**R:** Four departments run on it daily; state compliance tracking across multiple U.S. jurisdictions automated. [TODO: users, order volume, time saved]
+**Use for:** "Tell me about a project you owned end to end", "Working with ambiguity", "Why should we trust you with scope?"
+
+### 5. Banking Fraud Investigation (judgment + data rigor)
+**S:** At Bank of America, flagged consumer accounts needed fraud investigation and due diligence with real money and real customers on the line.
+**T:** Assess flagged accounts accurately — both false positives and missed fraud are costly.
+**A:** Ran initial due diligence on flagged accounts, maintained G/L accuracy and reconciliation, and built data-driven client pitch analyses on internal platforms.
+**R:** [TODO: any volume/accuracy detail you can share]
+**Use for:** "Attention to detail", "Handling sensitive data", "Experience in regulated environments"
+
+<!-- Aim for 4-6 covering different competencies. #5 is thinner — strengthen or swap once real numbers are in. -->
 
 ## Common Tough Questions
 

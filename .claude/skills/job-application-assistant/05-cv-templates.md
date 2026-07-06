@@ -105,12 +105,15 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+<!-- Populated by /setup 2026-07-06 — tune per application -->
+**For Applied AI Engineer / AI Engineer roles:**
+> Applied AI engineer who ships LLM systems to production, not prototypes. Sole architect of PBOMNI, a multi-tenant operations platform whose network of eight LLM email agents extracts structured data from unstructured business email — with a human-correction feedback loop — and runs daily operations for four departments at a specialty agriculture company. Completing an M.S. in Artificial Intelligence (capstone: PBOMNI). Full-stack depth (React/TypeScript, PostgreSQL/Supabase, Edge Functions) plus the business fluency to turn messy operational workflows into software people actually use.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Full-Stack Engineer (AI product) roles:**
+> Full-stack engineer (React/TypeScript, PostgreSQL/Supabase, Deno Edge Functions) who built and operates a production multi-tenant SaaS solo: 18+ RLS-secured tables, 48+ idempotent migrations, CI/CD to Vercel, DocuSign integration, and an installable PWA used on the warehouse floor. Deep LLM integration experience — prompt pipelines for structured extraction with human-in-the-loop learning. M.S. in Artificial Intelligence in progress; earlier career in banking and finance gives unusual fluency with the business side of the code.
+
+**For Forward-Deployed / Solutions Engineer (AI) roles:**
+> Engineer-operator who has lived on both sides of an AI deployment: as the sole technical executive of an SMB, I found the workflows worth automating, then designed, built, and shipped the LLM system that automated them — and sat with the users while it learned from their corrections. That end-to-end loop (discover → build → deploy → iterate with the customer) is exactly the forward-deployed motion, practiced daily in production.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

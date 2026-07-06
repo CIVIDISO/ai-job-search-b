@@ -1,12 +1,13 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Brandon McCray
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as the master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Populated by /setup 2026-07-06, targeted at Applied AI Engineer roles.
+%% [TODO: ...] tokens mark dates/metrics the source resume didn't contain — fill before compiling.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,letterpaper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
@@ -24,18 +25,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Brandon McCray - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Brandon}{McCray}
+\address{Seattle, WA}{}{}
+\phone[mobile]{206.708.3041}
+\email{brandonmccray02@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/brandonjmccray}{LinkedIn}, \href{https://github.com/CIVIDISO}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +47,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Applied AI engineer who ships LLM systems to production, not prototypes. Sole architect of \textbf{PBOMNI}, a multi-tenant operations platform whose network of eight LLM email agents extracts structured data from unstructured business email --- with a human-correction feedback loop --- and runs daily operations for four departments at a specialty agriculture company. Completing an M.S.\ in Artificial Intelligence (capstone: PBOMNI). Full-stack depth (React/TypeScript, PostgreSQL/Supabase, Edge Functions) plus the business fluency, from board level to bank branch, to turn messy operational workflows into software people actually use.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +57,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{LLM Application Engineering}: prompt pipelines for structured-data extraction from unstructured text; human-in-the-loop correction feedback; multi-agent workflow routing; Generative AI \& LLM graduate coursework.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Full-Stack Development}: TypeScript, React, Tailwind CSS, Progressive Web Apps; Supabase Edge Functions (Deno); REST API integration (DocuSign).
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Databases \& Security}: PostgreSQL with Row Level Security, PL/pgSQL, multi-tenant isolation, audit triggers, idempotent migrations; PostgREST hardening.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Machine Learning \& Data}: Python, PyTorch, TensorFlow, scikit-learn, Pandas, NumPy; NLP and Computer Vision coursework; Power BI, SQL analytics.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Infrastructure \& Delivery}: GitHub $\rightarrow$ Vercel CI/CD, AWS, environment management, production release discipline as a solo engineer.
 
 \end{itemize}
 
@@ -77,31 +78,32 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{[TODO: Mon YYYY]--Present}{Chief Data Officer / Junior Board Member (sole engineer)}{Perfect Blend, LLC}{Bellevue, WA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Sole technical executive of a specialty agriculture company: own technology strategy, AI roadmap, all software development, and vendor evaluation at board level.
+    \item Architected, built, and operate \textbf{PBOMNI}, a multi-tenant AI operations platform (React/TypeScript, Supabase/PostgreSQL, Vercel, DocuSign, PWA) used daily by sales, accounting, quality, and logistics --- replacing manual email-to-spreadsheet and paper workflows. [TODO: users, orders/week, hours saved]
+    \item Built a network of \textbf{8 specialized LLM email agents} (order intake, quality, prebuy, AP, freight, HR, reports) that parse natural-language business email into structured records routed to workflow queues, with a feedback loop that learns from human corrections. [TODO: extraction accuracy / volume]
+    \item Shipped full sales-order lifecycle (draft $\rightarrow$ approved $\rightarrow$ fulfilled) and Bill of Lading generation with embedded DocuSign signing, deployed as a touch-optimized PWA on a loading-dock tablet.
+    \item Implemented Row Level Security across 18+ PostgreSQL tables with multi-tenant company isolation; revoked anonymous PostgREST access; added audit-trigger logging on all financial records; 48+ idempotent production migrations on a GitHub $\rightarrow$ Vercel CI/CD pipeline.
+    \item Debugged to root cause: PostgreSQL RLS $\times$ database-view incompatibility at the PL/pgSQL exception-handling level; OAuth/CORS/iframe security conflicts across DocuSign, Supabase Edge Functions, and React.
+    \item Automated state product-compliance registration tracking across multiple U.S. jurisdictions; perform P\&L analysis and multi-dimensional sales analysis informing pricing strategy.
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{[TODO: Mon YYYY--Mon YYYY]}{Financial Services Representative}{Bank of America --- Consumer \& Small Business}{Seattle, WA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Conducted fraud investigation and initial due diligence on flagged consumer accounts; maintained G/L account accuracy and reconciliation.
+    \item Generated data-driven client pitch analyses on internal banking platforms; member of the Black Employee Network Group.
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{[TODO: Mon YYYY--Mon YYYY]}{Youth Counselor}{YMCA of Pearl Street}{Tacoma, WA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Mentored at-risk youth; facilitated group programming and academic/life-skills development.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,46 +116,31 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{[TODO: YYYY]--[TODO: YYYY, expected]}{M.S.\ in Artificial Intelligence}{Seattle University, School of Science \& Engineering}{Seattle, WA}{}{\vspace{1pt}
+Capstone: PBOMNI platform (in production). Coursework: Machine Learning, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI \& LLMs, AI Governance, Ethics of AI, Mathematics for AI.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{[TODO: YYYY--YYYY]}{B.S.\ in Business Administration, Digital Marketing minor}{Central Washington University}{Seattle, WA}{}{\vspace{1pt}
+Coursework: Financial Statement Analysis, Econometrics, Futures \& Derivatives, SQL, Python.
 }}
 
+\vspace{3pt}
+
+\item{\cventry{[TODO: YYYY--YYYY]}{A.A.S.\ in Business --- Dean's List}{Pierce College}{Lakewood, WA}{}{}}
+
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     CERTIFICATIONS & ADDITIONAL
 % ============================================================
 
-\section{Languages}
+\section{Certifications \& Additional}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Google Analytics Certification} --- Google ([TODO: year]).}
+\item{Interests: astronomy, animation, music production, basketball.}
 \end{itemize}
 
 % ============================================================

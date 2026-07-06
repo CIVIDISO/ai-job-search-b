@@ -1,76 +1,85 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Populated by /setup 2026-07-06 for Brandon McCray — Applied AI Engineer, Seattle, WA, USA.
+     NOTE: The framework's built-in Danish portal CLIs (jobindex, jobbank, jobdanmark, jobnet) do not
+     apply to the US market. The usable built-in tool is linkedin-search (country-agnostic). Everything
+     else below runs through WebSearch/site: queries. -->
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary (US market):
+- **linkedin.com/jobs** — via the `linkedin-search` CLI: `bun run .agents/skills/linkedin-search/cli/src/cli.ts search -l "Seattle, Washington, United States" --query "<title>"`
+- **Company career pages** — Greenhouse (`boards.greenhouse.io`), Lever (`jobs.lever.co`), Ashby (`jobs.ashbyhq.com`) via site: searches
+- **builtinseattle.com** — Seattle startup jobs
+- **wellfound.com** — startup/AI roles
+- **hiring.cafe / otta.com** — curated tech roles
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Secondary:
+- Direct Google `site:` searches for target companies
+- **indeed.com** (broad net)
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Combine each query with location terms ("Seattle", "Bellevue", "Redmond", "Remote US") where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Applied AI / AI Engineer
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most desired direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+linkedin-search: --query "Applied AI Engineer" -l "Seattle, Washington, United States"
+linkedin-search: --query "AI Engineer" -l "Seattle, Washington, United States"
+linkedin-search: --query "LLM Engineer" -l "United States" --remote remote
+site:boards.greenhouse.io "applied AI engineer"
+site:jobs.lever.co "AI engineer" LLM
+site:jobs.ashbyhq.com "AI engineer"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: LLM Product / Automation Domain
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Domain expertise: LLM pipelines for business-workflow automation.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+linkedin-search: --query "generative AI engineer" -l "Seattle, Washington, United States"
+linkedin-search: --query "AI automation engineer" -l "United States" --remote remote
+site:linkedin.com/jobs "LLM" "structured extraction" OR "document intelligence"
+site:boards.greenhouse.io "AI integration" engineer
+"prompt engineering" engineer site:jobs.lever.co
+```
+
+### Priority 3: Adjacent — Forward-Deployed / Solutions / Full-Stack AI
+
+Roles the profile pivots into naturally (customer-facing engineering + business fluency).
+
+```
+linkedin-search: --query "Forward Deployed Engineer" -l "United States"
+linkedin-search: --query "Solutions Engineer AI" -l "Seattle, Washington, United States"
+linkedin-search: --query "Full Stack Engineer AI" -l "Seattle, Washington, United States"
+site:boards.greenhouse.io "forward deployed"
+```
+
+### Priority 4: Broader Technical (wider net)
+
+```
+linkedin-search: --query "Software Engineer TypeScript React" -l "Seattle, Washington, United States"
+linkedin-search: --query "Machine Learning Engineer" -l "Seattle, Washington, United States"
+site:builtinseattle.com "AI" engineer
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- Seattle, WA and surrounding areas (ideal)
+- Bellevue / Redmond / Kirkland (ideal — current employer is in Bellevue)
+- Tacoma (acceptable — [TODO: confirm])
+- Remote-US (acceptable — [TODO: confirm])
+- Anything requiring relocation (too far / deal-breaker)
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
+Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown". For linkedin-search, pass `--jobage 14`.
 
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+- "/scrape agents" → Priority 1 queries + "AI agents engineer", "agentic workflows"
+- "/scrape fintech" → Priority 2 queries + "AI engineer fintech", "LLM financial services"
