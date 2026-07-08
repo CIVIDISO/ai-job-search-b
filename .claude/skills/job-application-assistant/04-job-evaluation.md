@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** LLM application engineering (prompt pipelines, structured extraction, human-in-the-loop feedback), TypeScript/React full-stack, PostgreSQL/Supabase (RLS, multi-tenant, migrations), REST/DocuSign API integration, Python data tooling (Pandas/NumPy)
+**Moderate match areas:** PyTorch/TensorFlow/scikit-learn model training (coursework, not production), NLP/Computer Vision (coursework), AWS, Power BI, RAG/vector search (adjacent to existing LLM work but not yet on record)
+**Weak match areas:** Distributed systems at scale, ML research/publications, MLOps at scale (Kubernetes, model serving infra), Go/Java/C++, formal production model training pipelines
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Applied AI / LLM product engineering for business operations; full-stack SaaS (0→1, solo); vertical software for regulated/ops-heavy industries (agtech, logistics, compliance); finance-adjacent tooling
+**Moderate:** Data analytics/BI roles; solutions/forward-deployed engineering (has the customer-facing + technical mix, no formal title yet); fintech (Bank of America background)
+**Entry-level:** ML research engineering, platform/infra engineering, big-tech SDE ladders (no team-based SWE track record yet)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,18 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+<!-- Confirmed 2026-07-08: role must run ALONGSIDE the Perfect Blend day job (side income for the M.S.) -->
+- Fully remote, async-friendly: PASS
+- Remote with rigid 9-5 core-hours in-seat requirements: FLAG (may conflict with day job)
+- Hybrid in Seattle metro: FLAG (discuss — absolute maximum)
+- On-site, relocation, or exclusivity/moonlighting-prohibition clauses: FAIL (deal-breakers)
+- Direct competitor of Perfect Blend (specialty agriculture/fertilizer ops software): FAIL (board-member conflict of interest)
+
+**Compensation floors** (2026 US market, sources: Second Talent, Zen van Riel, ZipRecruiter/Glassdoor intern data):
+- Contract/freelance: ≥ $60/hr floor, target $75–100/hr (junior-mid LLM freelance runs $75–125/hr)
+- Paid internship: ≥ $30/hr (ML intern median ~$30/hr; engineer-intern ranges $51–81/hr at larger cos)
+- Part-time W-2: ≥ $50/hr equivalent
+- Full-time remote (only if exceptional): ≥ $130k base
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +71,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Near term (confirmed 2026-07-08): remote applied-AI work — contract, part-time, or internship — that supplements income for the M.S. without conflicting with the Perfect Blend role
+- Benchmark his market value as someone already running production AI systems, against industry standards
+- Join a real engineering team to gain peer review, mentorship, and team-scale practices after years of building solo
+- Long term: senior applied-AI/product-engineering scope that keeps the business-strategy dimension
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: shipping LLM features end-to-end, automating real workflows, debugging gnarly integration problems, talking to the people who use the software *(inferred — [TODO: confirm])*
+- Tasks that drain: [TODO: fill in]
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: currently employed — this search is for supplemental income (school costs), so he can be selective; "favorable" beats "maximal" but don't accept exploitative rates (confirmed 2026-07-08)
+- **Flexibility**: must fit around the Perfect Blend day job AND M.S. coursework (through 2027) — async/flexible-hours engagements only
+- **Professional development**: teams with strong senior engineers and code-review culture are a plus, second to schedule compatibility
 
 ### 6. Salary Benchmark (Optional)
 

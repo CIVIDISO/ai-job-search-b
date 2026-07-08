@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Brandon McCray
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- Populated by /setup (Path B: single CV import, 2026-07-06). [TODO] tokens mark data the CV didn't contain — fill them in. -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Brandon McCray, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +15,81 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Brandon McCray
+- **Location:** Seattle, WA, USA — **remote strongly preferred** (working alongside current role); Seattle-metro hybrid acceptable at most; no relocation
+- **Languages:** English (native)
+- **Status:** Employed (Chief Data Officer, Perfect Blend, LLC) while completing an M.S. in Artificial Intelligence; actively seeking Applied AI Engineer roles
+- **LinkedIn headline:** "Applied AI Engineer | LLM systems in production | M.S. Artificial Intelligence" *(suggested — [TODO: confirm])*
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+<!-- Most recent first -->
+- **M.S. in Artificial Intelligence** (2025-2027 expected) - Seattle University, School of Science & Engineering
+  - Capstone: PBOMNI — AI-powered enterprise operations platform (in production)
+  - Topics: Machine Learning, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI & LLMs, AI Governance, Ethics of AI, Mathematics for AI, Programming for Data Science
+- **B.S. in Business Administration, Digital Marketing minor** (2022-2025) - Central Washington University
+  - Topics: Financial Statement Analysis, Econometrics, Futures & Derivatives, SQL, Python
+- **A.A.S. in Business** (2019-2021) - Pierce College (Dean's List)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+<!-- Most recent first -->
+- **Chief Data Officer / Junior Board Member** (Jul 2024 - Present) - **Perfect Blend, LLC** (Bellevue, WA)
+  - Sole technical executive: owns technology strategy, AI integration roadmap, software development, and vendor evaluation
+  - Architected, built, and operates PBOMNI solo: multi-tenant SaaS on React/TypeScript + Supabase/PostgreSQL + Vercel, used daily by 10 staff across sales, accounting, quality, and logistics — ~350 emails/orders processed per week, ~20 hours/week of manual work eliminated
+  - Built a network of 8 specialized LLM email bots (order intake, quality, prebuy, AP, freight, HR, reports) that extract structured data from unstructured business email, with a human-correction feedback loop
+  - Shipped sales-order lifecycle + Bill of Lading generation with embedded DocuSign signing, deployed as a touch-optimized PWA at the loading dock
+  - Implemented Row Level Security across 18+ PostgreSQL tables with multi-tenant isolation, revoked anonymous PostgREST access, added audit-trigger logging on financial records; 48+ idempotent migrations, GitHub → Vercel CI/CD
+  - Runs state product-compliance registration tracking across multiple U.S. jurisdictions; performs P&L analysis and multi-dimensional sales analysis
+- **Financial Services Representative** (Jun 2023 - Jul 2024) - **Bank of America, Consumer & Small Business** (Seattle, WA)
+  - Fraud investigation and initial due diligence on flagged consumer accounts; G/L account accuracy and reconciliation
+  - Data-driven client pitch analyses on internal banking platforms; member, Black Employee Network Group
+- **Youth Counselor** ([TODO: dates — Brandon doesn't have these on hand; keep off the CV, list undated under Additional]) - **YMCA of Pearl Street** (Tacoma, WA)
+  - Mentored at-risk youth; facilitated group programming, academic and life-skills development
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** TypeScript/JavaScript (React, PWA), Python, SQL/PostgreSQL (RLS, migrations, PL/pgSQL debugging), Supabase (Auth, Edge Functions/Deno, Storage), LLM prompt pipelines & structured-data extraction, REST API integration (DocuSign)
+- **Secondary:** PyTorch, TensorFlow, scikit-learn, NLP, Computer Vision, Pandas/NumPy, Power BI, Google Analytics, AWS, Vercel, CI/CD, Tailwind CSS, R
+- **Domain:** Business-operations automation (sales, logistics, AP, compliance), multi-tenant SaaS architecture, regulated-industry compliance tracking, finance/accounting (reconciliation, P&L analysis)
+- **Software:** GitHub, DocuSign, Adobe Creative Suite, Canva, Hootsuite, Pro Tools, FL Studio, Blender
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Google Analytics Certification** - Google - completed 2025
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None (not applicable — non-academic track)
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Dean's List - Pierce College (2019-2021)
+- [TODO: any hackathons, competitions, or awards worth adding]
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- No formal assessment on file. Traits below are inferred from the CV; review before relying on them. -->
+- **Builder-owner** - Ships end-to-end systems solo, from database schema to UI to deployment *(inferred from CV — review)*
+- **Bridger** - Comfortable operating at board level and in code on the same day; translates business workflows into software *(inferred from CV — review)*
+- **Strengths:** Extreme ownership, production mindset (security, migrations, audit trails), fast self-directed learning, domain fluency in operations and finance
+- **Growth areas:** No experience yet on a multi-engineer team with code review culture (frame positively: eager for peer review and mentorship after building solo); [TODO: add your own view]
+- **Thrives in:** High-autonomy roles with direct access to users and real business problems *(inferred — review)*
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+<!-- Confirmed 2026-07-08 -->
+- Building LLM-powered systems that automate real business workflows end to end
+- Owning a product surface: schema → API → prompt pipeline → UI → deployment
+- Remote, project-based work — switching between projects; earning extra income to fund the M.S.
+- Testing his market value: seeing what his production-AI knowledge commands vs. industry standards
 
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+### Target Sectors & Engagement Types
+<!-- Confirmed 2026-07-08: primary goal is REMOTE work that runs alongside the Perfect Blend role, to fund the M.S. -->
+- **Contract / freelance AI engineering** (best fit for two-jobs goal): LLM integration, AI agents, RAG, automation builds — direct contracts or platforms (Toptal, Lemon.io, Upwork, Contra, Braintrust)
+- **Part-time / project-based roles** at AI startups and vertical B2B SaaS (ops, logistics, agtech, fintech, compliance)
+- **Paid remote internships** (he's an enrolled M.S. student — ML/AI engineering internships are fair game and resume-legible)
+- Full-time remote Applied AI roles only if exceptional (would replace, not supplement, the current role)
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+<!-- Confirmed 2026-07-08 -->
+- Not remote (Seattle-metro hybrid is the absolute max; on-site full-time = automatic fail)
+- Conflicts with the Perfect Blend day job: rigid 9-5 core-hours in-seat requirements, exclusivity clauses, or direct competitors of Perfect Blend (conflict of interest — he's a board member)
+- Requires relocation
+- Confidential search: employers must NOT contact Perfect Blend; no current-employer references
+- Rate floors (from 2026 market data, see 04-job-evaluation.md): contract ≥ $60/hr (target $75–100/hr); internship ≥ $30/hr; part-time W-2 ≥ $50/hr-equivalent; full-time remote ≥ $130k base
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

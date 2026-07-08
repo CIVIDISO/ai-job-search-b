@@ -1,60 +1,82 @@
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
+<!-- Populated by /setup (Path B: single CV import, 2026-07-06). [TODO] tokens mark data the CV didn't contain. -->
 
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Languages:** [YOUR_LANGUAGES with proficiency levels]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Brandon McCray
+- **Location:** Seattle, WA, USA
+- **Phone:** 206.708.3041
+- **Email:** brandonmccray02@gmail.com (personal) / bmccray@seattle.edu (university — expires after graduation; prefer personal on applications)
+- **LinkedIn:** https://linkedin.com/in/brandonjmccray
+- **GitHub:** https://github.com/CIVIDISO
+- **Languages:** English (native)
+- **Status:** Employed (Chief Data Officer, Perfect Blend, LLC) while completing M.S. in Artificial Intelligence; actively seeking Applied AI Engineer roles
+- **Constraints:** Remote strongly preferred — the role must run alongside his current Perfect Blend position (side income to fund the M.S.). Seattle-metro hybrid acceptable at most. No relocation. **Confidential search: never contact Perfect Blend.**
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| M.S. in Artificial Intelligence | 2025–2027 (expected) | Seattle University, School of Science & Engineering | ML, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI & LLMs, AI Governance, Ethics of AI, Mathematics for AI. Capstone: PBOMNI platform |
+| B.S. in Business Administration (Digital Marketing minor) | 2022–2025 | Central Washington University | Financial Statement Analysis, Econometrics, Futures & Derivatives, SQL, Python |
+| A.A.S. in Business (Dean's List) | 2019–2021 | Pierce College | — |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Chief Data Officer / Junior Board Member - Perfect Blend, LLC (Jul 2024 - Present)
+Bellevue, WA — specialty agriculture (fertilizer) company
+- Sole technical executive: technology strategy, AI integration roadmap, software development, vendor evaluation at board level
+- Sole architect and engineer of PBOMNI (detailed below): multi-tenant AI operations SaaS in daily production across sales, accounting, quality, and logistics
+- State product-compliance registration tracking across multiple U.S. jurisdictions, automated in the platform
+- Account reconciliation, financial narrative writing, P&L analysis; multi-dimensional sales analysis (salesperson, product, customer, geography) informing pricing and sales strategy
 
-<!-- Add more roles as needed -->
+**PBOMNI — AI-Powered Enterprise Operations Platform** (sole architect, full-stack engineer, product owner)
+Stack: React/TypeScript, Supabase (Auth, PostgreSQL, Edge Functions/Deno, Storage), Vercel, DocuSign API, PWA
+- **LLM email-bot network:** 8 specialized bots (order intake, quality, prebuy, AP, freight, HR, reports) parsing natural-language business email through prompt pipelines into structured data routed to workflow queues; human-correction feedback loop continuously improves extraction accuracy
+- **Sales & logistics automation:** full sales-order lifecycle (draft → approved → fulfilled); Bill of Lading generation with embedded DocuSign signing on a loading-dock Surface tablet (touch-optimized PWA)
+- **Compliance & ops:** multi-state product registration tracking; supplier management with document storage; fertilizer blend builder with real-time NPK composition, cost/ton, and margin calculations
+- **Security:** Row Level Security across 18+ PostgreSQL tables with multi-tenant company isolation; anonymous PostgREST access revoked; audit-trigger logging on all financial records
+- **Infrastructure:** 48+ idempotent production migrations; GitHub → Vercel CI/CD; installable PWA, no app store
+- **Hard problems solved:** PostgreSQL RLS × database-view incompatibility diagnosed at the PL/pgSQL exception-handling level; LLM prompt chains engineered for reliable structured extraction from unstructured email; OAuth/CORS/iframe security conflicts resolved across DocuSign + Supabase Edge Functions + React
+- **Metrics (confirmed 2026-07-08):** 10 daily users; ~350 emails/orders processed per week; ~20 hours/week of manual processing eliminated. Extraction accuracy not yet measured — [TODO: compute from the bot-learning corrections table: (records without human correction) / (total records)]
+
+### Financial Services Representative - Bank of America, Consumer & Small Business (Jun 2023 - Jul 2024)
+Seattle, WA
+- Fraud investigation and initial due diligence on flagged consumer accounts
+- G/L account accuracy and reconciliation
+- Data-driven client pitch analyses on internal banking platforms; member of the Black Employee Network Group
+
+### Youth Counselor - YMCA of Pearl Street (dates not on record — listed undated under "Additional" on the CV)
+Tacoma, WA
+- Mentored at-risk youth; facilitated group programming and academic/life-skills development
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **[TODO]**: Personal/open-source projects beyond PBOMNI (GitHub: CIVIDISO)
 
 ## Technical Skills
 
 ### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+- **TypeScript/JavaScript** (advanced, daily production): React, Tailwind CSS, PWA, Supabase Edge Functions (Deno)
+- **Python** (strong): Pandas, NumPy, scikit-learn, PyTorch, TensorFlow; NLP, Computer Vision, Generative AI & LLMs (graduate coursework + production prompt pipelines)
+- **SQL/PostgreSQL** (advanced): Row Level Security, PL/pgSQL, migrations, PostgREST, audit triggers
+- **R** (working knowledge)
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- LLM prompt-pipeline engineering for structured-data extraction with human-in-the-loop feedback
+- Multi-tenant SaaS architecture and enterprise security (RLS, auth, audit)
+- Business-operations automation: sales, logistics, accounts payable, HR, compliance
+- Finance & accounting: reconciliation, P&L analysis, financial narratives; fraud due diligence
 
 ### Software & Tools
-- [TOOL_LIST]
+- Supabase, AWS, Vercel, GitHub, CI/CD, DocuSign API, Power BI, Google Analytics, Adobe Creative Suite, Canva, Hootsuite, Pro Tools, FL Studio, Blender
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+- None (non-academic track)
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+- Dean's List - Pierce College (2019–2021)
+- Google Analytics Certification - Google (2025)
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
-
-More references available upon request.
+- Available upon request only. **Do not list or contact Perfect Blend** — Brandon still works there and the search is confidential.
+- Best candidates to line up (non-employer): Seattle University professor / M.S. capstone advisor; a former Bank of America manager or colleague. [TODO: get 1-2 soft commitments before applications go out]
