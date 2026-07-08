@@ -11,7 +11,7 @@
 - **GitHub:** https://github.com/CIVIDISO
 - **Languages:** English (native)
 - **Status:** Employed (Chief Data Officer, Perfect Blend, LLC) while completing M.S. in Artificial Intelligence; actively seeking Applied AI Engineer roles
-- **Constraints:** Seattle metro (Bellevue/Redmond OK); [TODO: remote preference and any other constraints]
+- **Constraints:** Remote strongly preferred — the role must run alongside his current Perfect Blend position (side income to fund the M.S.). Seattle-metro hybrid acceptable at most. No relocation. **Confidential search: never contact Perfect Blend.**
 
 ## Education
 
@@ -78,6 +78,5 @@ Tacoma, WA
 - Google Analytics Certification - Google (2025)
 
 ## References
-- [TODO: name, title, company, contact — ideal: a Perfect Blend executive and a Seattle University professor/capstone advisor]
-
-More references available upon request.
+- Available upon request only. **Do not list or contact Perfect Blend** — Brandon still works there and the search is confidential.
+- Best candidates to line up (non-employer): Seattle University professor / M.S. capstone advisor; a former Bank of America manager or colleague. [TODO: get 1-2 soft commitments before applications go out]

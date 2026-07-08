@@ -47,10 +47,18 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+<!-- Confirmed 2026-07-08: role must run ALONGSIDE the Perfect Blend day job (side income for the M.S.) -->
+- Fully remote, async-friendly: PASS
+- Remote with rigid 9-5 core-hours in-seat requirements: FLAG (may conflict with day job)
+- Hybrid in Seattle metro: FLAG (discuss — absolute maximum)
+- On-site, relocation, or exclusivity/moonlighting-prohibition clauses: FAIL (deal-breakers)
+- Direct competitor of Perfect Blend (specialty agriculture/fertilizer ops software): FAIL (board-member conflict of interest)
+
+**Compensation floors** (2026 US market, sources: Second Talent, Zen van Riel, ZipRecruiter/Glassdoor intern data):
+- Contract/freelance: ≥ $60/hr floor, target $75–100/hr (junior-mid LLM freelance runs $75–125/hr)
+- Paid internship: ≥ $30/hr (ML intern median ~$30/hr; engineer-intern ranges $51–81/hr at larger cos)
+- Part-time W-2: ≥ $50/hr equivalent
+- Full-time remote (only if exceptional): ≥ $130k base
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,9 +71,10 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- Land an Applied AI Engineer role building LLM-powered products in production
+- Near term (confirmed 2026-07-08): remote applied-AI work — contract, part-time, or internship — that supplements income for the M.S. without conflicting with the Perfect Blend role
+- Benchmark his market value as someone already running production AI systems, against industry standards
 - Join a real engineering team to gain peer review, mentorship, and team-scale practices after years of building solo
-- Long term: senior applied-AI/product-engineering scope that keeps the business-strategy dimension ([TODO: confirm])
+- Long term: senior applied-AI/product-engineering scope that keeps the business-strategy dimension
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
 - Tasks that energize: shipping LLM features end-to-end, automating real workflows, debugging gnarly integration problems, talking to the people who use the software *(inferred — [TODO: confirm])*
@@ -73,9 +82,9 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: currently employed — can be selective, no desperation timeline ([TODO: confirm])
-- **Flexibility**: completing M.S. in AI — [TODO: does coursework constrain schedule until graduation?]
-- **Professional development**: prioritize teams with strong senior engineers and code-review culture over pure comp ([TODO: confirm])
+- **Security**: currently employed — this search is for supplemental income (school costs), so he can be selective; "favorable" beats "maximal" but don't accept exploitative rates (confirmed 2026-07-08)
+- **Flexibility**: must fit around the Perfect Blend day job AND M.S. coursework (through 2027) — async/flexible-hours engagements only
+- **Professional development**: teams with strong senior engineers and code-review culture are a plus, second to schedule compatibility
 
 ### 6. Salary Benchmark (Optional)
 

@@ -24,7 +24,7 @@ Brandon's career pattern identifies him as a **builder-operator** type: someone 
 ## How You Work Best
 - High-autonomy roles with direct access to end users and real business problems *[inferred — review]*
 - Small, fast-moving teams where individual scope is broad *[inferred — review]*
-- [TODO: add your own — what environments have actually energized or drained you?]
+- Remote and async, project-based: likes switching between projects and working from anywhere *(confirmed 2026-07-08)*
 
 ## Growth Areas (frame positively in applications)
 - **No multi-engineer team experience yet:** Frame as "built solo out of necessity, actively seeking peer review and mentorship — the appeal of joining a strong engineering team after proving I can carry a system alone."
@@ -44,8 +44,8 @@ When a job posting mentions these, flag as **potential friction** (not deal-brea
 - [TODO: confirm]
 
 ## Management Style Preferences
-- [TODO: what management style works for you?]
-- [TODO: what doesn't?]
+- Works: outcome-based management — clear deliverables, autonomy over hours and approach *(inferred from remote/side-work goal — review)*
+- Doesn't work: rigid core-hours in-seat requirements or hour-by-hour oversight (incompatible with running alongside the day job) *(confirmed 2026-07-08)*
 
 ## Using This in Applications
 - **Cover letters:** Lead with the production-LLM story (PBOMNI) and the business-fluency angle; one concrete hard-problem anecdote beats a list of traits

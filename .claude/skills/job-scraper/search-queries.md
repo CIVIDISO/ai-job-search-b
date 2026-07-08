@@ -22,14 +22,27 @@ Secondary:
 
 Combine each query with location terms ("Seattle", "Bellevue", "Redmond", "Remote US") where the site supports it.
 
-### Priority 1: Applied AI / AI Engineer
+### Priority 1: Remote Contract / Part-Time / Internship AI roles
 
-Strongest and most desired direction.
+Primary goal (confirmed 2026-07-08): remote work that runs alongside the current job, funding the M.S.
+
+```
+linkedin-search: --query "AI engineer contract" -l "United States" --remote remote
+linkedin-search: --query "machine learning intern" -l "United States" --remote remote
+linkedin-search: --query "AI engineer part time" -l "United States" --remote remote
+linkedin-search: --query "LLM engineer" -l "United States" --remote remote
+site:boards.greenhouse.io "machine learning intern" remote
+site:jobs.ashbyhq.com intern AI remote
+"AI engineer" contract part-time site:wellfound.com
+```
+
+Also maintain platform profiles (not scrapeable — direct signup): Toptal, Lemon.io, Braintrust, Contra, Upwork.
+
+### Priority 1b: Applied AI / AI Engineer (full-time remote — only exceptional fits)
 
 ```
 linkedin-search: --query "Applied AI Engineer" -l "Seattle, Washington, United States"
 linkedin-search: --query "AI Engineer" -l "Seattle, Washington, United States"
-linkedin-search: --query "LLM Engineer" -l "United States" --remote remote
 site:boards.greenhouse.io "applied AI engineer"
 site:jobs.lever.co "AI engineer" LLM
 site:jobs.ashbyhq.com "AI engineer"
@@ -68,11 +81,11 @@ site:builtinseattle.com "AI" engineer
 
 ## Location Filter
 
-- Seattle, WA and surrounding areas (ideal)
-- Bellevue / Redmond / Kirkland (ideal — current employer is in Bellevue)
-- Tacoma (acceptable — [TODO: confirm])
-- Remote-US (acceptable — [TODO: confirm])
-- Anything requiring relocation (too far / deal-breaker)
+<!-- Confirmed 2026-07-08 -->
+- Remote-US, async-friendly (ideal — must run alongside current job)
+- Seattle / Bellevue / Redmond hybrid (acceptable — absolute maximum in-office commitment)
+- On-site anywhere, or roles with rigid core-hours in-seat requirements (fail)
+- Anything requiring relocation (fail)
 
 ## Date Filter
 

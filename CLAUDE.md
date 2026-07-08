@@ -16,7 +16,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Brandon McCray
-- **Location:** Seattle, WA, USA (Seattle metro incl. Bellevue/Redmond; open to remote — [TODO: confirm commute/remote preferences])
+- **Location:** Seattle, WA, USA — **remote strongly preferred** (working alongside current role); Seattle-metro hybrid acceptable at most; no relocation
 - **Languages:** English (native)
 - **Status:** Employed (Chief Data Officer, Perfect Blend, LLC) while completing an M.S. in Artificial Intelligence; actively seeking Applied AI Engineer roles
 - **LinkedIn headline:** "Applied AI Engineer | LLM systems in production | M.S. Artificial Intelligence" *(suggested — [TODO: confirm])*
@@ -70,21 +70,26 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Thrives in:** High-autonomy roles with direct access to users and real business problems *(inferred — review)*
 
 ### What Excites You
-<!-- [TODO: confirm — inferred from target role choice] -->
+<!-- Confirmed 2026-07-08 -->
 - Building LLM-powered systems that automate real business workflows end to end
 - Owning a product surface: schema → API → prompt pipeline → UI → deployment
+- Remote, project-based work — switching between projects; earning extra income to fund the M.S.
+- Testing his market value: seeing what his production-AI knowledge commands vs. industry standards
 
-### Target Sectors
-<!-- [TODO: confirm/expand company examples] -->
-- Applied AI / LLM product companies and startups (e.g., Anthropic ecosystem startups, AI agent/automation tooling)
-- Vertical B2B SaaS with AI features: ops, logistics, agtech, fintech, compliance
-- Seattle-area enterprise AI teams (Amazon, Microsoft, Salesforce, smaller AI-integration consultancies)
+### Target Sectors & Engagement Types
+<!-- Confirmed 2026-07-08: primary goal is REMOTE work that runs alongside the Perfect Blend role, to fund the M.S. -->
+- **Contract / freelance AI engineering** (best fit for two-jobs goal): LLM integration, AI agents, RAG, automation builds — direct contracts or platforms (Toptal, Lemon.io, Upwork, Contra, Braintrust)
+- **Part-time / project-based roles** at AI startups and vertical B2B SaaS (ops, logistics, agtech, fintech, compliance)
+- **Paid remote internships** (he's an enrolled M.S. student — ML/AI engineering internships are fair game and resume-legible)
+- Full-time remote Applied AI roles only if exceptional (would replace, not supplement, the current role)
 
 ### Deal-breakers
-<!-- [TODO: confirm all of these — assumed defaults] -->
-- Requires relocation away from Seattle metro
-- [TODO: salary floor]
-- [TODO: on-site/hybrid/remote requirements]
+<!-- Confirmed 2026-07-08 -->
+- Not remote (Seattle-metro hybrid is the absolute max; on-site full-time = automatic fail)
+- Conflicts with the Perfect Blend day job: rigid 9-5 core-hours in-seat requirements, exclusivity clauses, or direct competitors of Perfect Blend (conflict of interest — he's a board member)
+- Requires relocation
+- Confidential search: employers must NOT contact Perfect Blend; no current-employer references
+- Rate floors (from 2026 market data, see 04-job-evaluation.md): contract ≥ $60/hr (target $75–100/hr); internship ≥ $30/hr; part-time W-2 ≥ $50/hr-equivalent; full-time remote ≥ $130k base
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
