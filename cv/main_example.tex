@@ -2,8 +2,8 @@
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as the master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% Populated by /setup 2026-07-06, targeted at Applied AI Engineer roles.
-%% [TODO: ...] tokens mark dates/metrics the source resume didn't contain — fill before compiling.
+%% Populated by /setup 2026-07-06 (dates/metrics confirmed by Brandon 2026-07-08),
+%% targeted at Applied AI Engineer roles.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -47,7 +47,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{Applied AI engineer who ships LLM systems to production, not prototypes. Sole architect of \textbf{PBOMNI}, a multi-tenant operations platform whose network of eight LLM email agents extracts structured data from unstructured business email --- with a human-correction feedback loop --- and runs daily operations for four departments at a specialty agriculture company. Completing an M.S.\ in Artificial Intelligence (capstone: PBOMNI). Full-stack depth (React/TypeScript, PostgreSQL/Supabase, Edge Functions) plus the business fluency, from board level to bank branch, to turn messy operational workflows into software people actually use.}
+\small{Applied AI engineer who ships LLM systems to production, not prototypes. Sole architect of \textbf{PBOMNI}, a multi-tenant operations platform whose network of eight LLM email agents processes roughly 350 emails and orders a week for four departments --- with a human-correction feedback loop. Completing an M.S.\ in Artificial Intelligence (capstone: PBOMNI). Full-stack depth (React/TypeScript, PostgreSQL/Supabase, Edge Functions) plus the business fluency, from board level to bank branch, to turn messy operational workflows into software people actually use.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -78,11 +78,11 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[TODO: Mon YYYY]--Present}{Chief Data Officer / Junior Board Member (sole engineer)}{Perfect Blend, LLC}{Bellevue, WA}{}{\vspace{1pt}
+\item{\cventry{Jul 2024--Present}{Chief Data Officer / Junior Board Member (sole engineer)}{Perfect Blend, LLC}{Bellevue, WA}{}{\vspace{1pt}
 \begin{itemize}
     \item Sole technical executive of a specialty agriculture company: own technology strategy, AI roadmap, all software development, and vendor evaluation at board level.
-    \item Architected, built, and operate \textbf{PBOMNI}, a multi-tenant AI operations platform (React/TypeScript, Supabase/PostgreSQL, Vercel, DocuSign, PWA) used daily by sales, accounting, quality, and logistics --- replacing manual email-to-spreadsheet and paper workflows. [TODO: users, orders/week, hours saved]
-    \item Built a network of \textbf{8 specialized LLM email agents} (order intake, quality, prebuy, AP, freight, HR, reports) that parse natural-language business email into structured records routed to workflow queues, with a feedback loop that learns from human corrections. [TODO: extraction accuracy / volume]
+    \item Architected, built, and operate \textbf{PBOMNI}, a multi-tenant AI operations platform (React/TypeScript, Supabase/PostgreSQL, Vercel, DocuSign, PWA) used daily by 10 staff across sales, accounting, quality, and logistics --- replacing manual email-to-spreadsheet and paper workflows and eliminating $\sim$20 hours of manual processing per week.
+    \item Built a network of \textbf{8 specialized LLM email agents} (order intake, quality, prebuy, AP, freight, HR, reports) that parse $\sim$350 natural-language business emails and orders per week into structured records routed to workflow queues, with a feedback loop that learns from human corrections.
     \item Shipped full sales-order lifecycle (draft $\rightarrow$ approved $\rightarrow$ fulfilled) and Bill of Lading generation with embedded DocuSign signing, deployed as a touch-optimized PWA on a loading-dock tablet.
     \item Implemented Row Level Security across 18+ PostgreSQL tables with multi-tenant company isolation; revoked anonymous PostgREST access; added audit-trigger logging on all financial records; 48+ idempotent production migrations on a GitHub $\rightarrow$ Vercel CI/CD pipeline.
     \item Debugged to root cause: PostgreSQL RLS $\times$ database-view incompatibility at the PL/pgSQL exception-handling level; OAuth/CORS/iframe security conflicts across DocuSign, Supabase Edge Functions, and React.
@@ -92,18 +92,10 @@
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[TODO: Mon YYYY--Mon YYYY]}{Financial Services Representative}{Bank of America --- Consumer \& Small Business}{Seattle, WA}{}{\vspace{1pt}
+\item{\cventry{Jun 2023--Jul 2024}{Financial Services Representative}{Bank of America --- Consumer \& Small Business}{Seattle, WA}{}{\vspace{1pt}
 \begin{itemize}
     \item Conducted fraud investigation and initial due diligence on flagged consumer accounts; maintained G/L account accuracy and reconciliation.
     \item Generated data-driven client pitch analyses on internal banking platforms; member of the Black Employee Network Group.
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[TODO: Mon YYYY--Mon YYYY]}{Youth Counselor}{YMCA of Pearl Street}{Tacoma, WA}{}{\vspace{1pt}
-\begin{itemize}
-    \item Mentored at-risk youth; facilitated group programming and academic/life-skills development.
 \end{itemize}}}
 
 \end{itemize}
@@ -116,19 +108,19 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[TODO: YYYY]--[TODO: YYYY, expected]}{M.S.\ in Artificial Intelligence}{Seattle University, School of Science \& Engineering}{Seattle, WA}{}{\vspace{1pt}
+\item{\cventry{2025--2027 (expected)}{M.S.\ in Artificial Intelligence}{Seattle University, School of Science \& Engineering}{Seattle, WA}{}{\vspace{1pt}
 Capstone: PBOMNI platform (in production). Coursework: Machine Learning, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI \& LLMs, AI Governance, Ethics of AI, Mathematics for AI.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[TODO: YYYY--YYYY]}{B.S.\ in Business Administration, Digital Marketing minor}{Central Washington University}{Seattle, WA}{}{\vspace{1pt}
+\item{\cventry{2022--2025}{B.S.\ in Business Administration, Digital Marketing minor}{Central Washington University}{Seattle, WA}{}{\vspace{1pt}
 Coursework: Financial Statement Analysis, Econometrics, Futures \& Derivatives, SQL, Python.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[TODO: YYYY--YYYY]}{A.A.S.\ in Business --- Dean's List}{Pierce College}{Lakewood, WA}{}{}}
+\item{\cventry{2019--2021}{A.A.S.\ in Business --- Dean's List}{Pierce College}{Lakewood, WA}{}{}}
 
 \end{itemize}
 
@@ -139,7 +131,8 @@ Coursework: Financial Statement Analysis, Econometrics, Futures \& Derivatives, 
 \section{Certifications \& Additional}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{Google Analytics Certification} --- Google ([TODO: year]).}
+\item{\textbf{Google Analytics Certification} --- Google (2025).}
+\item{Earlier experience: Youth Counselor, YMCA of Pearl Street, Tacoma, WA --- mentored at-risk youth.}
 \item{Interests: astronomy, animation, music production, basketball.}
 \end{itemize}
 

@@ -23,26 +23,26 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Education
 <!-- Most recent first -->
-- **M.S. in Artificial Intelligence** ([TODO: start year]-[TODO: expected graduation]) - Seattle University, School of Science & Engineering
+- **M.S. in Artificial Intelligence** (2025-2027 expected) - Seattle University, School of Science & Engineering
   - Capstone: PBOMNI — AI-powered enterprise operations platform (in production)
   - Topics: Machine Learning, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI & LLMs, AI Governance, Ethics of AI, Mathematics for AI, Programming for Data Science
-- **B.S. in Business Administration, Digital Marketing minor** ([TODO: years]) - Central Washington University
+- **B.S. in Business Administration, Digital Marketing minor** (2022-2025) - Central Washington University
   - Topics: Financial Statement Analysis, Econometrics, Futures & Derivatives, SQL, Python
-- **A.A.S. in Business** ([TODO: years]) - Pierce College (Dean's List)
+- **A.A.S. in Business** (2019-2021) - Pierce College (Dean's List)
 
 ### Professional Experience
 <!-- Most recent first -->
-- **Chief Data Officer / Junior Board Member** ([TODO: start date] - Present) - **Perfect Blend, LLC** (Bellevue, WA)
+- **Chief Data Officer / Junior Board Member** (Jul 2024 - Present) - **Perfect Blend, LLC** (Bellevue, WA)
   - Sole technical executive: owns technology strategy, AI integration roadmap, software development, and vendor evaluation
-  - Architected, built, and operates PBOMNI solo: multi-tenant SaaS on React/TypeScript + Supabase/PostgreSQL + Vercel, used daily by sales, accounting, quality, and logistics
+  - Architected, built, and operates PBOMNI solo: multi-tenant SaaS on React/TypeScript + Supabase/PostgreSQL + Vercel, used daily by 10 staff across sales, accounting, quality, and logistics — ~350 emails/orders processed per week, ~20 hours/week of manual work eliminated
   - Built a network of 8 specialized LLM email bots (order intake, quality, prebuy, AP, freight, HR, reports) that extract structured data from unstructured business email, with a human-correction feedback loop
   - Shipped sales-order lifecycle + Bill of Lading generation with embedded DocuSign signing, deployed as a touch-optimized PWA at the loading dock
   - Implemented Row Level Security across 18+ PostgreSQL tables with multi-tenant isolation, revoked anonymous PostgREST access, added audit-trigger logging on financial records; 48+ idempotent migrations, GitHub → Vercel CI/CD
   - Runs state product-compliance registration tracking across multiple U.S. jurisdictions; performs P&L analysis and multi-dimensional sales analysis
-- **Financial Services Representative** ([TODO: dates]) - **Bank of America, Consumer & Small Business** (Seattle, WA)
+- **Financial Services Representative** (Jun 2023 - Jul 2024) - **Bank of America, Consumer & Small Business** (Seattle, WA)
   - Fraud investigation and initial due diligence on flagged consumer accounts; G/L account accuracy and reconciliation
   - Data-driven client pitch analyses on internal banking platforms; member, Black Employee Network Group
-- **Youth Counselor** ([TODO: dates]) - **YMCA of Pearl Street** (Tacoma, WA)
+- **Youth Counselor** ([TODO: dates — Brandon doesn't have these on hand; keep off the CV, list undated under Additional]) - **YMCA of Pearl Street** (Tacoma, WA)
   - Mentored at-risk youth; facilitated group programming, academic and life-skills development
 
 ### Technical Skills
@@ -52,13 +52,13 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Software:** GitHub, DocuSign, Adobe Creative Suite, Canva, Hootsuite, Pro Tools, FL Studio, Blender
 
 ### Certifications
-- **Google Analytics Certification** - Google - completed [TODO: date]
+- **Google Analytics Certification** - Google - completed 2025
 
 ### Publications
 - None (not applicable — non-academic track)
 
 ### Awards
-- Dean's List - Pierce College ([TODO: year])
+- Dean's List - Pierce College (2019-2021)
 - [TODO: any hackathons, competitions, or awards worth adding]
 
 ### Behavioral Profile

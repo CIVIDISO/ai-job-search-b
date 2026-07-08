@@ -17,13 +17,13 @@
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| M.S. in Artificial Intelligence | [TODO]–[TODO: expected] | Seattle University, School of Science & Engineering | ML, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI & LLMs, AI Governance, Ethics of AI, Mathematics for AI. Capstone: PBOMNI platform |
-| B.S. in Business Administration (Digital Marketing minor) | [TODO] | Central Washington University | Financial Statement Analysis, Econometrics, Futures & Derivatives, SQL, Python |
-| A.A.S. in Business (Dean's List) | [TODO] | Pierce College | — |
+| M.S. in Artificial Intelligence | 2025–2027 (expected) | Seattle University, School of Science & Engineering | ML, Advanced ML, AI Systems, Big Data Systems, NLP, Computer Vision, Generative AI & LLMs, AI Governance, Ethics of AI, Mathematics for AI. Capstone: PBOMNI platform |
+| B.S. in Business Administration (Digital Marketing minor) | 2022–2025 | Central Washington University | Financial Statement Analysis, Econometrics, Futures & Derivatives, SQL, Python |
+| A.A.S. in Business (Dean's List) | 2019–2021 | Pierce College | — |
 
 ## Professional Experience
 
-### Chief Data Officer / Junior Board Member - Perfect Blend, LLC ([TODO: start] - Present)
+### Chief Data Officer / Junior Board Member - Perfect Blend, LLC (Jul 2024 - Present)
 Bellevue, WA — specialty agriculture (fertilizer) company
 - Sole technical executive: technology strategy, AI integration roadmap, software development, vendor evaluation at board level
 - Sole architect and engineer of PBOMNI (detailed below): multi-tenant AI operations SaaS in daily production across sales, accounting, quality, and logistics
@@ -38,15 +38,15 @@ Stack: React/TypeScript, Supabase (Auth, PostgreSQL, Edge Functions/Deno, Storag
 - **Security:** Row Level Security across 18+ PostgreSQL tables with multi-tenant company isolation; anonymous PostgREST access revoked; audit-trigger logging on all financial records
 - **Infrastructure:** 48+ idempotent production migrations; GitHub → Vercel CI/CD; installable PWA, no app store
 - **Hard problems solved:** PostgreSQL RLS × database-view incompatibility diagnosed at the PL/pgSQL exception-handling level; LLM prompt chains engineered for reliable structured extraction from unstructured email; OAuth/CORS/iframe security conflicts resolved across DocuSign + Supabase Edge Functions + React
-- [TODO: metrics — number of daily users, emails/orders processed per week, hours saved vs. manual process, extraction accuracy after feedback loop, revenue volume supported]
+- **Metrics (confirmed 2026-07-08):** 10 daily users; ~350 emails/orders processed per week; ~20 hours/week of manual processing eliminated. Extraction accuracy not yet measured — [TODO: compute from the bot-learning corrections table: (records without human correction) / (total records)]
 
-### Financial Services Representative - Bank of America, Consumer & Small Business ([TODO: dates])
+### Financial Services Representative - Bank of America, Consumer & Small Business (Jun 2023 - Jul 2024)
 Seattle, WA
 - Fraud investigation and initial due diligence on flagged consumer accounts
 - G/L account accuracy and reconciliation
 - Data-driven client pitch analyses on internal banking platforms; member of the Black Employee Network Group
 
-### Youth Counselor - YMCA of Pearl Street ([TODO: dates])
+### Youth Counselor - YMCA of Pearl Street (dates not on record — listed undated under "Additional" on the CV)
 Tacoma, WA
 - Mentored at-risk youth; facilitated group programming and academic/life-skills development
 
@@ -74,8 +74,8 @@ Tacoma, WA
 - None (non-academic track)
 
 ## Awards
-- Dean's List - Pierce College ([TODO: year])
-- Google Analytics Certification - Google ([TODO: date])
+- Dean's List - Pierce College (2019–2021)
+- Google Analytics Certification - Google (2025)
 
 ## References
 - [TODO: name, title, company, contact — ideal: a Perfect Blend executive and a Seattle University professor/capstone advisor]

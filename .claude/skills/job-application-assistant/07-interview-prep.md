@@ -16,7 +16,7 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 **S:** Perfect Blend ran order intake, quality reports, AP, freight, and HR on manual email-to-spreadsheet workflows — slow, error-prone, and unauditable.
 **T:** As sole engineer, automate intake across all of these departments without breaking how customers and staff already communicated (plain email).
 **A:** Designed a network of 8 specialized LLM bots, each with a prompt pipeline that parses natural-language email into structured, validated records routed to per-department workflow queues. Built a feedback loop that records every human correction and feeds it back to improve extraction — accepting that the model would be wrong sometimes and designing for it rather than pretending it wouldn't be.
-**R:** In daily production across four departments. [TODO: emails/orders per week, extraction accuracy before/after feedback loop, hours saved]
+**R:** In daily production across four departments: ~350 emails/orders parsed per week, ~20 hours/week of manual processing eliminated. [TODO: extraction accuracy — compute from the bot-learning corrections table before interviews; "I instrumented corrections so accuracy is measurable" is itself a strong answer]
 **Use for:** "Tell me about an AI system you built", "How do you handle LLM unreliability?", "Design an automation for messy input"
 
 ### 2. PostgreSQL RLS Debugging (root-cause depth)
@@ -37,7 +37,7 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 **S:** A specialty agriculture company ran sales, logistics, compliance, and accounting on email, spreadsheets, and paper.
 **T:** As the company's only technical person, replace that with software — no team, no spec, no existing infrastructure.
 **A:** Built PBOMNI end to end: React/TypeScript PWA, Supabase/PostgreSQL with RLS, Deno Edge Functions, DocuSign integration, 48+ idempotent migrations, GitHub → Vercel CI/CD. Sequenced rollout by department so daily operations never stopped; trained users; iterated from their feedback.
-**R:** Four departments run on it daily; state compliance tracking across multiple U.S. jurisdictions automated. [TODO: users, order volume, time saved]
+**R:** 10 staff across four departments run on it daily; ~350 emails/orders processed per week; ~20 hours/week of manual work eliminated; state compliance tracking across multiple U.S. jurisdictions automated.
 **Use for:** "Tell me about a project you owned end to end", "Working with ambiguity", "Why should we trust you with scope?"
 
 ### 5. Banking Fraud Investigation (judgment + data rigor)
