@@ -1,1 +1,4 @@
 date,company,sector,role,role_type,channel,status,contact_person,fit_rating,notes,cv_file,cover_letter_file,source
+2026-07-09,Blue River Technology (John Deere),agtech/AI,ML Intern - Autonomy,internship,greenhouse,applied,,high,screening Qs submitted (data leakage / debugging),,,scrape
+2026-07-09,Campbell Soup,food/enterprise AI,Agentic AI Engineer Co-Op,co-op,workday,applied,,high,salary expectation 55-70k annualized,,,scrape
+2026-07-10,Point C,healthcare,Healthcare Informatics AI Intern,internship,greenhouse,applied,,medium,healthcare + AI-tools screening Qs submitted,,,scrape
